@@ -1,18 +1,17 @@
-// const Game = require("../src/Game");
-// const game = new Game();
-// game.start();
-
 class Turn {
   constructor(guess, card) {
     this.guess = guess;
     this.card = card;
   }
+
   returnGuess() {
     return this.guess;
   }
+
   returnCard() {
     return this.card;
   }
+
   evaluateCard() {
     if (this.guess === this.card.correctAnswer) {
       return true;
@@ -20,6 +19,7 @@ class Turn {
       return false;
     }
   }
+
   giveFeedback() {
     if (this.evaluateCard() === true) {
       return "Correct";
@@ -28,9 +28,5 @@ class Turn {
     }
   }
 }
-
-// const game = new Game();
-
-// game.start();
 
 module.exports = Turn;

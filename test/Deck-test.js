@@ -35,9 +35,7 @@ describe("Deck", function () {
       ["Lex", "William", "Fitzgerald"],
       "Fitzgerald"
     );
-
     const deck3 = new Deck([card1, card2, card3]);
-
     expect(deck3.countCards()).to.be.equal(3);
   });
 });
