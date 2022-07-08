@@ -1,5 +1,5 @@
 ## Abstract
-  - Fash Cards is a JavaScript application, that allows a user to learn about programming by asking a series of multiple choice questions and giving the user a chance to answer. The user is told whether they got the question right or wrong and the end gets a percentage back for the question they got right.
+  - Flash Cards is a JavaScript application, that allows a user to learn about programming by asking a series of multiple choice questions and giving the user a chance to answer. The user is told whether they got the question right or wrong and the end gets a percentage back for the question they got right.
 
 ## Technologies
   - Javascript
@@ -14,7 +14,7 @@
 2. Clone the repo to your local machine
 3. Play the game in the terminal by running node index.js in your terminal.
 
-## Contributors
+## Contributor
   - [Dinne Kopelevich](https://github.com/DinneK)
 
 
