@@ -1,3 +1,7 @@
+// const Game = require("../src/Game");
+// const game = new Game();
+// game.start();
+
 class Turn {
   constructor(guess, card) {
     this.guess = guess;
@@ -24,5 +28,9 @@ class Turn {
     }
   }
 }
+
+// const game = new Game();
+
+// game.start();
 
 module.exports = Turn;

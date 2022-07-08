@@ -1,3 +1,7 @@
+// const Game = require("../src/Game");
+// const game = new Game();
+// game.start();
+
 class Card {
   constructor(id, question, possibleAnswer, answer) {
     this.id = id;
