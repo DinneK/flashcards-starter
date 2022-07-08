@@ -20,11 +20,13 @@ class Round {
     }
     return turn.giveFeedback();
   }
+
   calculatePercentCorrect() {
     let wins = this.turns - this.incorrectGuesses.length;
     let percent = parseFloat(((wins / this.turns) * 100).toFixed(2));
     return percent;
   }
+
   endRound() {
     console.log(
       `Round over! You answered %${this.calculatePercentCorrect()} correctly.`

@@ -23,7 +23,6 @@ describe("Turn", function () {
       "bunny"
     );
     const turn3 = new Turn(guess, card3);
-
     expect(turn3.returnGuess()).to.be.equal("dog");
   });
 
@@ -35,7 +34,6 @@ describe("Turn", function () {
       "scarf"
     );
     const turn4 = new Turn("scarf", card4);
-
     expect(turn4.returnCard()).to.be.an.instanceOf(Card);
   });
 
@@ -47,7 +45,6 @@ describe("Turn", function () {
       "All the help"
     );
     const turn5 = new Turn("Hi", card5);
-
     expect(turn5.evaluateCard()).to.equal(false);
   });
 
@@ -59,7 +56,6 @@ describe("Turn", function () {
       "Bad Luck"
     );
     const turn6 = new Turn("Because", card6);
-
     expect(turn6.giveFeedback()).equal("Incorrect");
   });
 });
