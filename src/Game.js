@@ -34,8 +34,8 @@ class Game {
 
   start() {
     this.makeANewRound();
-    this.printMessage(this.createDeck(), this.createRound());
-    this.printQuestion(this.createRound());
+    this.printMessage(this.createDeck(), this.makeANewRound());
+    this.printQuestion(this.makeANewRound());
   }
 
   printMessage(deck, round) {

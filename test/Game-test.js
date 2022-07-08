@@ -18,10 +18,10 @@ describe("Game", function () {
     expect(game).to.be.an.instanceof(Game);
   });
 
-  it.skip("should count how many cards are in the deck", function () {
-    const deck3 = new Deck([card1, card2, card3]);
+  it.skip("should startk", function () {
+    game.start();
 
-    expect(deck3.countCards()).to.be.equal(3);
+    expect(game.start()).to.be.equal();
   });
 });
 
