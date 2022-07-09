@@ -6,7 +6,7 @@
 
 
 ## GIF
-  - [Flash Card Solo Project](https://user-images.githubusercontent.com/63877492/178082323-b8809729-f448-4c34-8176-b62bd9e283b3.gif)
+  ![Flash Card Solo Project](https://user-images.githubusercontent.com/63877492/178082323-b8809729-f448-4c34-8176-b62bd9e283b3.gif)
 
 
 ## Set Up
